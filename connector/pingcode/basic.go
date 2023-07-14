@@ -1,4 +1,4 @@
-package basic
+package pingcode
 
 import (
 	"context"
@@ -76,7 +76,7 @@ func (g *Connector) ConnectorName() plugin.Translator {
 }
 
 func (g *Connector) ConnectorSlugName() string {
-	return "basic"
+	return "pingcode"
 }
 
 func (g *Connector) ConnectorSender(ctx *plugin.GinContext, receiverURL string) (redirectURL string) {

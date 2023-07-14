@@ -2,7 +2,7 @@ plugin:
   basic_connector:
     backend:
       name:
-        other: basic
+        other: pingcode
       info:
         name:
           other: OAuth2 Basic
