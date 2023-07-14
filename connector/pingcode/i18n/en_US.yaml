@@ -1,5 +1,5 @@
 plugin:
-  basic_connector:
+  pingcode_connector:
     backend:
       name:
         other: pingcode
